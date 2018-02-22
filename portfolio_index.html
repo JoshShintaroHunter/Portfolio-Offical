@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Set viewport for devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to style sheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Links for googlefonts! -->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hunter Portfolio</title>
+</head>
+
+<body>
+    <!-- Container for html elements -->
+    <div class="container">
+
+        <div class="header_block">
+            <!-- Heading div for the header of the page, all edits should be made across all media querys -->
+            <nav>
+                <ul>
+                    <li class="ignore"><a id="logo" href="#" onClick="loadHome()"><img class="jHunt" src="img/logo.png" alt="The company logo"></a></li>
+                	<li class="use"><a id="home" href="#" onClick="loadHome()"><h3>Home</h3></a></li>
+                    <li class="use"><a id="skills" href="#" onClick="loadSkills()"><h3>Skills</h3></a></li>
+                	<li class="use"><a id="projects" href="#" onClick="loadProjects()"><h3>Projects</h3></a></li>
+                	<li class="use"><a id="about" href="#" onClick="loadAbout()"><h3>About</h3></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--end header_block-->
+
+        <div id="content">
+
+        </div>
+        <!--End section-->
+
+
+
+        <footer>
+            <h3>Contact</h3>
+            <a href="https://www.facebook.com/josh.hunter.3304" target="_blank"><img class="icons" src="img/facebook_circle.png" alt="FB icon"></a>
+            <a href="https://www.instagram.com/heshua_92/" target="_blank"><img class="icons" src="img/instagram_circle.png" alt="Insta icon"></a>
+        </footer>
+        <!--End footer-->
+
+    </div>
+    <!-- End Container-->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
